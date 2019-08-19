@@ -1,0 +1,27 @@
+version: '2'
+services:
+  mypostgres:
+    logging:
+      driver: "json-file"
+      options:
+        max-file: "5"
+        max-size: "10m"
+    image: postgres:latest
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=DB-PRODUCT
+  app:
+    logging:
+      driver: "json-file"
+      options:
+        max-file: "5"
+        max-size: "10m"
+    image: init-quarkus:latest
+    ports:
+      - "5006:8080"
+    depends_on:
+      - mypostgres
+
