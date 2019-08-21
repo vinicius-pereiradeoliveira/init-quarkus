@@ -12,10 +12,12 @@ You will need:
 
 - Apache Maven 3.5.3+
 
+- Postgres 11+.
+
 # Extensions used
 
 - quarkus-hibernate-orm-panache
 - quarkus-resteasy-jackson
 
-A good and fast guide for install extensions in Quarkus is:
+A quick guide for installing extensions in Quarkus:
 - https://quarkus.io/extensions/
