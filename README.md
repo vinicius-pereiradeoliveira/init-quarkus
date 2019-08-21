@@ -2,7 +2,7 @@
 
 The project: https://quarkus.io/
 
-This is a simple code for learn Quarkus with Rest-API and persistence in Postgres DB.
+This is a simple code for learning Quarkus with Rest-API and persistence in Postgres DB.
 
 You will need:
 
