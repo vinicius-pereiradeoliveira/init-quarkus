@@ -17,5 +17,5 @@ You will need:
 - quarkus-hibernate-orm-panache
 - quarkus-resteasy-jackson
 
-A good and faster guide for install extensions in Quarkus is:
+A good and fast guide for install extensions in Quarkus is:
 - https://quarkus.io/extensions/
